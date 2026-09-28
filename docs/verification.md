@@ -37,10 +37,18 @@ The browser's viewport override did not change its reported width, so 390px and 
 
 ## Published document
 
-The intended repository path is `docs/design/design-system.md`. GitHub's browser URL for that file is:
+The document is published through GitHub Pages at the same style of address as the earlier `business_case` assignment:
+
+https://ryroiu.github.io/system_design/docs/design/design-system.md
+
+**Pages verification:** this address returned HTTP 200 with the complete design-system document and content type `text/markdown; charset=utf-8`. The supplied comparison, `https://ryroiu.github.io/business_case/docs/design/plan.md`, also returned HTTP 200 with the same content type. The reflection uses the Pages address above.
+
+The in-app browser blocked navigation to the Markdown Pages URL, so this address was verified by retrieving its HTTP response and contents. The repository's rendered preview was separately verified visually.
+
+The repository path is `docs/design/design-system.md`. Its rendered GitHub repository view is also available at:
 
 https://github.com/ryroiu/system_design/blob/main/docs/design/design-system.md
 
-GitHub file URLs include `blob/main`; the shorthand URL without that segment does not identify a rendered repository file.
+The two hosts serve different purposes: `ryroiu.github.io` serves published Pages files, while `github.com` provides the repository viewer with `blob/main` in the route.
 
-**Publication confirmed:** the document, reflection, and initial verification record were committed to `main` in `a00e7e6`. The design document was then opened in a signed-out browser at the URL above. GitHub rendered all nine numbered sections, the tables, source links, and the architecture diagram without a rich-display error. No account sign-in was required to read it.
+**Repository-view publication confirmed:** the document, reflection, and initial verification record were committed to `main` in `a00e7e6`. The design document was then opened in a signed-out browser at the `github.com` repository-view URL above. GitHub rendered all nine numbered sections, the tables, source links, and the architecture diagram without a rich-display error. No account sign-in was required to read it.

@@ -22,7 +22,7 @@ I would define the data contract, design tokens, and acceptance checks earlier. 
 
 I would keep manual testing for layout, navigation, keyboard use, and clarity, while adding targeted automated checks for invalid feeds, stale timestamps, missing images, and deployment configuration. I would also test phone layouts and accessibility earlier. AI can accelerate implementation, but I still need to decide whether the result is accurate, understandable, and ready to publish.
 
-**Design-system document:** https://github.com/ryroiu/system_design/blob/main/docs/design/design-system.md
+**Design-system document:** https://ryroiu.github.io/system_design/docs/design/design-system.md
 
 **Web application:** https://ryastra.github.io/nasa-observatory/
 

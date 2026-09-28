@@ -3,6 +3,7 @@
 This project documents the existing RYASTRA NASA data fleet, with NASA Observatory as the main application reference.
 
 - [Design system](docs/design/design-system.md)
+- [Design-system document on GitHub Pages](https://ryroiu.github.io/system_design/docs/design/design-system.md)
 - [Reflection on building with AI and manual testing](docs/reflection.md)
 - [Verification record](docs/verification.md)
 - [Live NASA Observatory](https://ryastra.github.io/nasa-observatory/)
