@@ -41,4 +41,6 @@ The intended repository path is `docs/design/design-system.md`. GitHub's browser
 
 https://github.com/ryroiu/system_design/blob/main/docs/design/design-system.md
 
-GitHub file URLs include `blob/main`; the shorthand URL without that segment does not identify a rendered repository file. Publication and final browser visibility are confirmed in the accompanying delivery message.
+GitHub file URLs include `blob/main`; the shorthand URL without that segment does not identify a rendered repository file.
+
+**Publication confirmed:** the document, reflection, and initial verification record were committed to `main` in `a00e7e6`. The design document was then opened in a signed-out browser at the URL above. GitHub rendered all nine numbered sections, the tables, source links, and the architecture diagram without a rich-display error. No account sign-in was required to read it.
